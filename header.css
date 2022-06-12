@@ -1,0 +1,98 @@
+.header-logo{
+    background-color: rgb(4, 86, 109);
+    width: 100%;
+    height: 3em;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: flex;
+}
+
+
+.contenedor-logo{
+
+   display: flex;
+   width: 18.75em;
+   height: 2.5em;
+   color: #fff;
+   font-size: 1.2em;
+   line-height: 2.5em;
+   margin-left: 1em;
+
+   position:absolute;
+   overflow: hidden;
+   font-family: 'Inconsolata', monospace;
+    /* font-family: 'Secular One', sans-serif; */
+}
+
+.contenedor-logo ul{
+    list-style: none;
+    padding-left: 8px;
+    animation: cambiar 5.5s infinite;
+}
+
+.contenedor-logo ul,p{
+    margin:0;
+}
+
+@keyframes cambiar{
+    0% {margin-top: 0;}
+    30% {margin-top: 0;}
+
+    40%{margin-top: -2.5em;}
+    80%{margin-top: -2.5em;}
+
+    90%{margin-top: 0;}
+    100%{margin-top: 0;}
+}
+
+
+.contactos img{
+    width: 1.5em;
+    color: #fff;
+    filter: invert(1);
+}
+
+.contactos a:nth-child(1) ~ a{
+    margin-left: 0.5em;
+}
+.contactos img:hover{
+   transform: rotate(20deg);
+}
+
+.contactos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    margin: 0.6em;
+
+}
+
+
+.footer-css-header{
+        background-color: rgb(4, 86, 109);
+        width: 100%;
+        height: 3em;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-family: 'Kanit', sans-serif;
+        font-weight: 100;
+
+    }
+
+.contactos-footer img{
+    width: 1.5em;
+    color: #fff;
+    filter: invert(1);
+    margin-top: 0.5em;
+}
+
+.contactos-footer img:hover{
+    transform: rotate(20deg);
+ }
